@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="signInVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="800.0" styleClass="vbox" stylesheets="@hello.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.watermetterapp.watermetterapp.addmetterController">
+   <children>
+      <VBox prefHeight="117.0" prefWidth="800.0" />
+      <HBox alignment="CENTER" prefHeight="655.0" prefWidth="800.0">
+         <children>
+            <AnchorPane prefHeight="599.0" prefWidth="375.0">
+               <children>
+                  <VBox layoutX="11.0" layoutY="15.0" prefHeight="539.0" prefWidth="358.0" style="-fx-background-color: #233057;">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="51.0" prefWidth="361.0">
+                           <children>
+                              <ImageView blendMode="ADD" fitHeight="51.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@loginlogo2.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="20.0" prefWidth="361.0" />
+                        <HBox prefHeight="42.0" prefWidth="361.0">
+                           <children>
+                              <HBox prefHeight="43.0" prefWidth="45.0" />
+                              <Label prefHeight="43.0" prefWidth="309.0" text="Add meter info" textFill="#fcfcfc">
+                                 <font>
+                                    <Font name="Verdana Bold" size="34.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="8.0" prefWidth="361.0">
+                           <children>
+                              <HBox prefHeight="35.0" prefWidth="48.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="0.0" prefWidth="361.0">
+                           <children>
+                              <HBox prefHeight="35.0" prefWidth="48.0" />
+                           </children>
+                        </HBox>
+                        <VBox>
+                           <children>
+                              <HBox prefHeight="35.0" prefWidth="361.0">
+                                 <children>
+                                    <HBox prefHeight="35.0" prefWidth="48.0" />
+                                    <Label prefHeight="35.0" prefWidth="304.0" text="Account number" textFill="WHITE">
+                                       <font>
+                                          <Font name="Verdana" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="35.0" prefWidth="361.0">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="35.0" prefWidth="48.0">
+                                       <children>
+                                          <ImageView fitHeight="36.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@notepad.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <TextField fx:id="accNum" prefHeight="36.0" prefWidth="286.0" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <HBox prefHeight="35.0" prefWidth="361.0">
+                                 <children>
+                                    <HBox prefHeight="25.0" prefWidth="48.0" />
+                                    <Label prefHeight="35.0" prefWidth="304.0" text="Owner’s name" textFill="WHITE">
+                                       <font>
+                                          <Font name="Verdana" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="35.0" prefWidth="361.0">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="35.0" prefWidth="48.0">
+                                       <children>
+                                          <ImageView fitHeight="38.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Addperson.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <TextField fx:id="ownerInfo" prefHeight="59.0" prefWidth="285.0" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <HBox prefHeight="35.0" prefWidth="361.0">
+                                 <children>
+                                    <HBox prefHeight="35.0" prefWidth="48.0" />
+                                    <Label prefHeight="35.0" prefWidth="304.0" text="Phone number" textFill="WHITE">
+                                       <font>
+                                          <Font name="Verdana" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="35.0" prefWidth="361.0">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="35.0" prefWidth="48.0">
+                                       <children>
+                                          <ImageView fitHeight="36.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@phone.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <TextField fx:id="phoneNumber" prefHeight="36.0" prefWidth="286.0" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <HBox prefHeight="35.0" prefWidth="361.0">
+                                 <children>
+                                    <HBox prefHeight="35.0" prefWidth="48.0" />
+                                    <Label prefHeight="35.0" prefWidth="304.0" text="Reading type" textFill="WHITE">
+                                       <font>
+                                          <Font name="Verdana" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="35.0" prefWidth="361.0">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="35.0" prefWidth="48.0">
+                                       <children>
+                                          <ImageView fitHeight="36.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@create-sharp.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <TextField fx:id="readingType" prefHeight="36.0" prefWidth="286.0" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <HBox prefHeight="35.0" prefWidth="361.0">
+                                 <children>
+                                    <HBox prefHeight="35.0" prefWidth="48.0" />
+                                    <Label prefHeight="35.0" prefWidth="304.0" text="Meter Usecase" textFill="WHITE">
+                                       <font>
+                                          <Font name="Verdana" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="35.0" prefWidth="361.0">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="35.0" prefWidth="48.0">
+                                       <children>
+                                          <ImageView fitHeight="36.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@speedometer-sharp.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <TextField fx:id="meterUsage" prefHeight="36.0" prefWidth="286.0" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <HBox alignment="CENTER" prefHeight="88.0" prefWidth="358.0">
+                           <children>
+                              <Button fx:id="AddMeterAndreturnToDashboard" mnemonicParsing="false" onAction="#returnDashBoard" prefHeight="49.0" prefWidth="358.0" styleClass="buttons" stylesheets="@hello.css" text="Add Meter " textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets left="50.0" right="25.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="Verdana Bold" size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                     <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" height="62.52" radius="22.605" spread="0.56" width="29.9">
+                           <color>
+                              <Color red="0.17093080282211304" green="0.18145914375782013" blue="0.8026315569877625" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</VBox>

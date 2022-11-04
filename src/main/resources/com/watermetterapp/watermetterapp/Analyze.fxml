@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="800.0" styleClass="vbox" stylesheets="@hello.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.watermetterapp.watermetterapp.Analyze">
+   <center>
+      <TableView fx:id="meterTable" prefHeight="476.0" prefWidth="504.0" BorderPane.alignment="CENTER">
+        <columns>
+            <TableColumn fx:id="meterNo" prefWidth="75.0" text="meterNo" />
+            <TableColumn fx:id="ownerName" prefWidth="75.0" text="ownerName" />
+          <TableColumn fx:id="Address" prefWidth="75.0" text="Adrress" />
+          <TableColumn fx:id="billingInfo" prefWidth="75.0" text="billingInfo" />
+            <TableColumn fx:id="usage" prefWidth="75.0" text="usage" />
+            <TableColumn fx:id="date" prefWidth="75.0" text="date" />
+        </columns>
+      </TableView>
+   </center>
+   <left>
+      <VBox prefHeight="476.0" prefWidth="155.0" BorderPane.alignment="CENTER" />
+   </left>
+   <bottom>
+      <VBox prefHeight="186.0" prefWidth="800.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <VBox prefHeight="84.0" prefWidth="800.0" BorderPane.alignment="CENTER" />
+   </top>
+   <right>
+      <VBox prefHeight="476.0" prefWidth="162.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>

@@ -1,0 +1,71 @@
+.buttons{
+-fx-background-radius: 25px;
+-fx-background-color:  #F10086;
+}
+
+
+.vbox{
+-fx-background-color:  #040D14;
+}
+#btn {
+    -fx-background-image: url("meter.png");
+    -fx-background-size: 32 32;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left 16px center;
+}
+#btn1 {
+    -fx-background-image: url("notebook.png");
+    -fx-background-size: 32 32;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left 16px center;
+}
+#btn2 {
+    -fx-background-image: url("stats.png");
+    -fx-background-size: 32 32;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left 16px center;
+}
+#btn3 {
+    -fx-background-image: url("agenda.png");
+    -fx-background-size: 32 32;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left 16px center;
+}
+#vboxCenter{
+-fx-background-color:  #FFFFFF;
+
+
+}
+#hBox1DashBoard{
+ -fx-background-image: url("presentation.png");
+ -fx-background-repeat: no-repeat;
+ -fx-background-position: left top, center;
+ -fx-background-size: cover, auto;
+
+}
+#waterButton{
+   -fx-background-image: url("meter.png");
+    -fx-background-size: 26 26;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left 16px center;
+}
+#analyzeMetersbutton{
+   -fx-background-image: url("analytics.png");
+    -fx-background-size: 26 26;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left 16px center;
+}
+#vboxMetr{
+ -fx-background-image: url("addmeter.png");
+ -fx-background-repeat: no-repeat;
+ -fx-background-position: left top, center;
+ -fx-background-size: cover, auto;
+
+}
+#vboxAnalze{
+ -fx-background-image: url("Business.png");
+ -fx-background-repeat: no-repeat;
+ -fx-background-position: left top, center;
+ -fx-background-size: cover, auto;
+
+}
